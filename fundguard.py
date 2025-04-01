@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure Google Generative AI (provide your own API key)
-genai.configure(api_key="AIzaSyCHoTyyN1wOrMwgfK-gxP59PLIhnDLKMFA")
+genai.configure(api_key="AIzaSyD6htK8PoLhH_oQETFPRZUojisXEEc9Pw8")
 
 
 # Function to get emergency loan information from Gemini
