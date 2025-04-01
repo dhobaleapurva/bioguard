@@ -1,4 +1,5 @@
 import streamlit as st
+import google.generativeai as genai
 
 # Define a set of questions and their corresponding choices
 questions = {
@@ -99,7 +100,7 @@ st.markdown('<div class="background">', unsafe_allow_html=True)
 
 c1, c2 = st.columns([30,50])
 c2.title("MindGuard: Psychological Condition Assessment Test")
-c1.image("C:/Users/KALPESH/Downloads/logo-removebg-preview.png")
+c1.image("logo-removebg-preview.png")
 # st.title("Psychological Condition Assessment Test")
 
 test = generate_mcq_test()
