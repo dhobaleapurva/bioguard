@@ -3,12 +3,12 @@ import google.generativeai as genai
 import requests
 
 # Configure Google Generative AI (provide your own API key)
-genai.configure(api_key="AIzaSyDpB0TSK6uGGj4EppytQ0YaTOZFMHg134I")
+genai.configure(api_key="AIzaSyC0d-eqlgM1k_EWnfxndHeIj-Z7rC2UEgk")
 
 
 # Function to get emergency information from Gemini
 def get_emergency_info(keyword, location):
-    model = genai.GenerativeModel('models/gemini-pro')
+    model = genai.GenerativeModel('models/gemini-1.5-pro')
 
     # Formulate the query for the AI model
     query = (f"I am experiencing a medical emergency related to {keyword}. "
