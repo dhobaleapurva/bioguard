@@ -28,7 +28,7 @@ def suggest_plan(bmi):
 
 # Function to interact with the Gemini model for detailed recommendations
 def get_gemini_recommendation(bmi_status, health_condition):
-    model = genai.GenerativeModel('models/gemini-pro')
+    model = genai.GenerativeModel('models/gemini-1.5-pro')
 
     # Formulate the query for the AI model
     query = (f"My BMI status is {bmi_status}, and I have underlying diseases like {health_condition}. "
