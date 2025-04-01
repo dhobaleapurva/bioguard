@@ -15,7 +15,7 @@ var2=""
 
 
 def create_gen_model():
-    return genai.GenerativeModel('models/gemini-pro')
+    return genai.GenerativeModel('models/gemini-1.5-pro')
 
 
 def main():
