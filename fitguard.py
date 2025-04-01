@@ -5,7 +5,7 @@ c1, c2 = st.columns([30,50])
 c2.title("FitGuard: Calculates BMI & Suggests Fitness Plan")
 c1.image("logo-removebg-preview.png")
 # Configure Google Generative AI (provide your own API key)
-genai.configure(api_key="AIzaSyDpB0TSK6uGGj4EppytQ0YaTOZFMHg134I")
+genai.configure(api_key="AIzaSyD8kEDkByAXSXnGRn1eABhSVtNZ7FEvKxo")
 
 
 # Function to calculate BMI
