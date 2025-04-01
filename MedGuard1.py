@@ -5,7 +5,7 @@ import google.generativeai as genai
 c1, c2 = st.columns([30,50])
 
 c2.title("MedGuard: Medicine Information & Alternative Suggestions")
-c1.image("C:/Users/KALPESH/Downloads/logo-removebg-preview.png")
+c1.image("logo-removebg-preview.png")
 genai.configure(api_key="AIzaSyDpB0TSK6uGGj4EppytQ0YaTOZFMHg134I")
 var = ""
 var2 = ""
