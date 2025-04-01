@@ -9,7 +9,7 @@ c1.image("logo-removebg-preview.png")
 # st.write(" ")
 # st.write(" ")
 # st.write(" ")
-genai.configure(api_key="AIzaSyDpB0TSK6uGGj4EppytQ0YaTOZFMHg134I")
+genai.configure(api_key="AIzaSyC-My06Rhl9selmKEA8hj_kOZ1rWBSKTFM")
 var = ""
 var2=""
 
