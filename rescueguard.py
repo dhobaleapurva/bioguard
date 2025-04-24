@@ -67,5 +67,6 @@ def emergency_services_main():
         - Practo
         """)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
+
     emergency_services_main()
